@@ -1,0 +1,1255 @@
+---
+GeneralPurpose:
+  a1:
+    - medium:
+        vcpu: "1"
+        cpu_credits_per_hour: "0"
+        memory: "2.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "10"
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "4.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "10"
+  t3:
+    - nano:
+        vcpu: "2"
+        cpu_credits_per_hour: "6"
+        memory: "0.5"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - micro:
+        vcpu: "2"
+        cpu_credits_per_hour: "12"
+        memory: "1.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - small:
+        vcpu: "2"
+        cpu_credits_per_hour: "24"
+        memory: "2.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - medium:
+        vcpu: "2"
+        cpu_credits_per_hour: "24"
+        memory: "4.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "36"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "96"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "192"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+  t3a:
+    - nano:
+        vcpu: "2"
+        cpu_credits_per_hour: "6"
+        memory: "0.5"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - micro:
+        vcpu: "2"
+        cpu_credits_per_hour: "12"
+        memory: "1.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - small:
+        vcpu: "2"
+        cpu_credits_per_hour: "24"
+        memory: "2.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - medium:
+        vcpu: "2"
+        cpu_credits_per_hour: "24"
+        memory: "4.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "36"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "96"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "192"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+  t2:
+    - nano:
+        vcpu: "1"
+        cpu_credits_per_hour: "3"
+        memory: "0.5"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - micro:
+        vcpu: "1"
+        cpu_credits_per_hour: "6"
+        memory: "1.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - small:
+        vcpu: "1"
+        cpu_credits_per_hour: "12"
+        memory: "2.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - medium:
+        vcpu: "2"
+        cpu_credits_per_hour: "24"
+        memory: "4.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "36"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "54"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: "5"
+  m5:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "192.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: "25"
+    - metal:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: "25"
+  m5d:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 75
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 150
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 300
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 2
+          size: 300
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "192.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 2
+          size: 900
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 4
+          size: 900
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: "25"
+    - metal:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 4
+          size: 900
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: "25"
+  m5a:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "192.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 5000
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 10000
+        net_max: "20"
+  m5ad:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 75
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 150
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 1
+          size: 300
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 2
+          size: 300
+          max_dedicated_ebs_bandwidth: 2120
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "192.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 2
+          size: 900
+          max_dedicated_ebs_bandwidth: 5000
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage:
+          type: "NVMe SSD"
+          qty: 4
+          size: 900
+          max_dedicated_ebs_bandwidth: 10000
+        net_max: "20"
+  m4:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 450
+        net_max: "5"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 750
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 1000
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2000
+        net_max: "5"
+    - 10xlarge:
+        vcpu: "40"
+        cpu_credits_per_hour: "0"
+        memory: "160.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 4000
+        net_max: "10"
+    - 16xlarge:
+        vcpu: "64"
+        cpu_credits_per_hour: "0"
+        memory: "256.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 10000
+        net_max: "25"
+ComputeOptimized:
+  c5:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "4.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 450
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: "10"
+    - 9xlarge:
+        vcpu: "36"
+        cpu_credits_per_hour: "0"
+        memory: "72.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: "10"
+    - 18xlarge:
+        vcpu: "72"
+        cpu_credits_per_hour: "0"
+        memory: "144.0"
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 140000
+        net_max: "25"
+  c5d:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "4.0"
+        storage: "1 x 50 NVMe SSD"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "8.0"
+        storage: "1 x 100 NVMe SSD"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage: "1 x 200 NVMe SSD"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage: "1 x 400 NVMe SSD"
+        net_max: "10"
+    - 9xlarge:
+        vcpu: "36"
+        cpu_credits_per_hour: "0"
+        memory: "72.0"
+        storage: "1 x 900 NVMe SSD"
+        net_max: "10"
+    - 18xlarge:
+        vcpu: "72"
+        cpu_credits_per_hour: "0"
+        memory: "144.0"
+        storage: "2 x 900 NVMe SSD"
+        net_max: "25"
+  c5n:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "5.25"
+        storage: "EBS"
+        net_max: "25"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "10.5"
+        storage: "EBS"
+        net_max: "25"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "21.0"
+        storage: "EBS"
+        net_max: "25"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "42.0"
+        storage: "EBS"
+        net_max: "25"
+    - 9xlarge:
+        vcpu: "36"
+        cpu_credits_per_hour: "0"
+        memory: "96.0"
+        storage: "EBS"
+        net_max: "50"
+    - 18xlarge:
+        vcpu: "72"
+        cpu_credits_per_hour: "0"
+        memory: "192.0"
+        storage: "EBS"
+        net_max: "100"
+  c4:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "81"
+        memory: "3.75"
+        storage: "EBS"
+        net_max: "5"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "81"
+        memory: "7.5"
+        storage: "EBS"
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "15.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "81"
+        memory: "30.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "36"
+        cpu_credits_per_hour: "81"
+        memory: "60.0"
+        storage: "EBS"
+        net_max: "10"
+MemoryOptimized:
+  r5:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage: "EBS"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage: "EBS"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "128.0"
+        storage: "EBS"
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage: "EBS"
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "EBS"
+        net_max: "25"
+    - metal:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "EBS"
+        net_max: "25"
+  r5d:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage: "1 x 75 NVMe SSD"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage: "1 x 150 NVMe SSD"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage: "1 x 300 NVMe SSD"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "128.0"
+        storage: "2 x 300 NVMe SSD"
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage: "2 x 900 NVMe SSD"
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "4 x 900 NVMe SSD"
+        net_max: "25"
+    - metal:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "4 x 900 NVMe SSD"
+        net_max: "25"
+  r5a:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage: "EBS"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage: "EBS"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "128.0"
+        storage: "EBS"
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage: "EBS"
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "EBS"
+        net_max: "20"
+  r5ad:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "16.0"
+        storage: "1 x 75 NVMe SSD"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "32.0"
+        storage: "1 x 150 NVMe SSD"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "64.0"
+        storage: "1 x 300 NVMe SSD"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "128.0"
+        storage: "2 x 300 NVMe SSD"
+        net_max: "10"
+    - 12xlarge:
+        vcpu: "48"
+        cpu_credits_per_hour: "0"
+        memory: "384.0"
+        storage: "2 x 900 NVMe SSD"
+        net_max: "10"
+    - 24xlarge:
+        vcpu: "96"
+        cpu_credits_per_hour: "0"
+        memory: "768.0"
+        storage: "4 x 900 NVMe SSD"
+        net_max: "20"
+  r4:
+    - large:
+        vcpu: "2"
+        cpu_credits_per_hour: "0"
+        memory: "15.25"
+        storage: "EBS"
+        net_max: "10"
+    - xlarge:
+        vcpu: "4"
+        cpu_credits_per_hour: "0"
+        memory: "30.5"
+        storage: "EBS"
+        net_max: "10"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "0"
+        memory: "61.0"
+        storage: "EBS"
+        net_max: "10"
+    - 4xlarge:
+        vcpu: "16"
+        cpu_credits_per_hour: "0"
+        memory: "122.0"
+        storage: "EBS"
+        net_max: "10"
+    - 8xlarge:
+        vcpu: "32"
+        cpu_credits_per_hour: "0"
+        memory: "244.0"
+        storage: "EBS"
+        net_max: "10"
+    - 16xlarge:
+        vcpu: "64"
+        cpu_credits_per_hour: "0"
+        memory: "488.0"
+        storage: "EBS"
+        net_max: "25"
+  x1e:
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 32xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  x1:
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 32xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  u-6rb1:
+    - metal:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  u-9tb1:
+    - metal:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  u-12tb1:
+    - metal:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  z1d:
+    - large:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 3xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 6xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 12xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - metal:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+AcceleratedComputing:
+  p3:
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  p3dn:
+    - 24xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  p2:
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  g3:
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  g3s:
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  f1:
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+StorageOptimized:
+  h1:
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  i3:
+    - large:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 16xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - metal:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+  d2:
+    - xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 2xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 4xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"
+    - 8xlarge:
+        vcpu: "8"
+        cpu_credits_per_hour: "81"
+        memory: "32.0"
+        storage: "EBS"
+        net_max: "5"

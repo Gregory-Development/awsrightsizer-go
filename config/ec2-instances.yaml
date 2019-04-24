@@ -1648,7 +1648,7 @@ MemoryOptimized:
           size: 1920
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
-  u-6rb1:
+  u-6tb1:
     - instanceType:
         name: metal
         vcpu: 448

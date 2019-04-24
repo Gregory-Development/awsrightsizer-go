@@ -1,0 +1,615 @@
+---
+GeneralPurpose:
+  t3:
+    - micro:
+        vcpu: 2
+        cpu_credits_per_hour: 12
+        memory: 1.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+    - small:
+        vcpu: 2
+        cpu_credits_per_hour: 24
+        memory: 2.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+    - medium:
+        vcpu: 2
+        cpu_credits_per_hour: 24
+        memory: 4.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 36
+        memory: 8.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 96
+        memory: 16.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 192
+        memory: 32.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 5
+  t2:
+    - micro:
+        vcpu: 1
+        cpu_credits_per_hour: 6
+        memory: 1.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - small:
+        vcpu: 1
+        cpu_credits_per_hour: 12
+        memory: 2.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - medium:
+        vcpu: 2
+        cpu_credits_per_hour: 24
+        memory: 4.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 36
+        memory: 8.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 54
+        memory: 16.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 81
+        memory: 32.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+  m5:
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 8.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 16.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 32.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 64.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 12xlarge:
+        vcpu: 48
+        cpu_credits_per_hour: 0
+        memory: 192.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: 10
+    - 24xlarge:
+        vcpu: 96
+        cpu_credits_per_hour: 0
+        memory: 384.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: 25
+  m4:
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 8.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 450
+        net_max: 0
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 16.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 750
+        net_max: 0
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 32.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 1000
+        net_max: 0
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 64.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2000
+        net_max: 0
+    - 10xlarge:
+        vcpu: 40
+        cpu_credits_per_hour: 0
+        memory: 160.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 4000
+        net_max: 10
+    - 16xlarge:
+        vcpu: 64
+        cpu_credits_per_hour: 0
+        memory: 256.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 10000
+        net_max: 25
+  m3:
+    - medium:
+        vcpu: 1
+        cpu_credits_per_hour: 0
+        memory: 3.75
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 7.5
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 15.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 30.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+  m1:
+    - small:
+        vcpu: 1
+        cpu_credits_per_hour: 0
+        memory: 1.7
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - medium:
+        vcpu: 1
+        cpu_credits_per_hour: 0
+        memory: 3.75
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 7.5
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 15.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+MemoryOptimized:
+  r5:
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 16.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 32.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 64.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 128.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 12xlarge:
+        vcpu: 48
+        cpu_credits_per_hour: 0
+        memory: 384.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: 10
+    - 24xlarge:
+        vcpu: 96
+        cpu_credits_per_hour: 0
+        memory: 768.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: 25
+  r4:
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 15.25
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 30.5
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 61.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 122.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+    - 8xlarge:
+        vcpu: 32
+        cpu_credits_per_hour: 0
+        memory: 244.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+    - 16xlarge:
+        vcpu: 64
+        cpu_credits_per_hour: 0
+        memory: 488.0
+        storage:
+          type: "EBS ONLY"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 25
+  r3:
+    - large:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 17.1
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 34.2
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 500
+        net_max: 0
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 68.4
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 1000
+        net_max: 0
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 122.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 2000
+        net_max: 0
+    - 8xlarge:
+        vcpu: 32
+        cpu_credits_per_hour: 0
+        memory: 244.0
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 10
+  x1e:
+    - xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 122.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 120
+          max_dedicated_ebs_bandwidth: 500
+        net_max: 10
+    - 2xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 244.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 240
+          max_dedicated_ebs_bandwidth: 1000
+        net_max: 10
+    - 4xlarge:
+        vcpu: 16
+        cpu_credits_per_hour: 0
+        memory: 488.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 480
+          max_dedicated_ebs_bandwidth: 1750
+        net_max: 10
+    - 8xlarge:
+        vcpu: 32
+        cpu_credits_per_hour: 0
+        memory: 976.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 960
+          max_dedicated_ebs_bandwidth: 3500
+        net_max: 10
+    - 16xlarge:
+        vcpu: 64
+        cpu_credits_per_hour: 0
+        memory: 1952.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 1920
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: 10
+    - 32xlarge:
+        vcpu: 128
+        cpu_credits_per_hour: 0
+        memory: 3904.0
+        storage:
+          type: "SSD"
+          qty: 2
+          size: 1920
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: 25
+  x1:
+    - 16xlarge:
+        vcpu: 64
+        cpu_credits_per_hour: 0
+        memory: 976.0
+        storage:
+          type: "SSD"
+          qty: 1
+          size: 1920
+          max_dedicated_ebs_bandwidth: 7000
+        net_max: 10
+    - 32xlarge:
+        vcpu: 128
+        cpu_credits_per_hour: 0
+        memory: 1952.0
+        storage:
+          type: "SSD"
+          qty: 2
+          size: 1920
+          max_dedicated_ebs_bandwidth: 14000
+        net_max: 25
+  m2:
+    - xlarge:
+        vcpu: 2
+        cpu_credits_per_hour: 0
+        memory: 17.1
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - 2xlarge:
+        vcpu: 4
+        cpu_credits_per_hour: 0
+        memory: 34.2
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0
+    - 4xlarge:
+        vcpu: 8
+        cpu_credits_per_hour: 0
+        memory: 68.4
+        storage:
+          type: "NOT SPECIFIED"
+          qty: 0
+          size: 0
+          max_dedicated_ebs_bandwidth: 0
+        net_max: 0

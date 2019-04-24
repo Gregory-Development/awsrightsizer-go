@@ -1,7 +1,8 @@
 ---
 GeneralPurpose:
   a1:
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 1
         cpu_credits_per_hour: 0
         memory: 2.0
@@ -11,7 +12,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 4.0
@@ -21,7 +23,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -31,7 +34,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -41,7 +45,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -52,7 +57,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   t3:
-    - nano:
+    - instanceType:
+        name: nano
         vcpu: 2
         cpu_credits_per_hour: 6
         memory: 0.5
@@ -62,7 +68,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - micro:
+    - instanceType:
+        name: micro
         vcpu: 2
         cpu_credits_per_hour: 12
         memory: 1.0
@@ -72,7 +79,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - small:
+    - instanceType:
+        name: small
         vcpu: 2
         cpu_credits_per_hour: 24
         memory: 2.0
@@ -82,7 +90,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 2
         cpu_credits_per_hour: 24
         memory: 4.0
@@ -92,7 +101,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 36
         memory: 8.0
@@ -102,7 +112,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 96
         memory: 16.0
@@ -112,7 +123,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 192
         memory: 32.0
@@ -123,7 +135,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
   t3a:
-    - nano:
+    - instanceType:
+        name: nano
         vcpu: 2
         cpu_credits_per_hour: 6
         memory: 0.5
@@ -133,7 +146,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - micro:
+    - instanceType:
+        name: micro
         vcpu: 2
         cpu_credits_per_hour: 12
         memory: 1.0
@@ -143,7 +157,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - small:
+    - instanceType:
+        name: small
         vcpu: 2
         cpu_credits_per_hour: 24
         memory: 2.0
@@ -153,7 +168,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 2
         cpu_credits_per_hour: 24
         memory: 4.0
@@ -163,7 +179,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 36
         memory: 8.0
@@ -173,7 +190,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 96
         memory: 16.0
@@ -183,7 +201,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 192
         memory: 32.0
@@ -194,7 +213,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
   t2:
-    - nano:
+    - instanceType:
+        name: nano
         vcpu: 1
         cpu_credits_per_hour: 3
         memory: 0.5
@@ -204,7 +224,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - micro:
+    - instanceType:
+        name: micro
         vcpu: 1
         cpu_credits_per_hour: 6
         memory: 1.0
@@ -214,7 +235,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - small:
+    - instanceType:
+        name: small
         vcpu: 1
         cpu_credits_per_hour: 12
         memory: 2.0
@@ -224,7 +246,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 2
         cpu_credits_per_hour: 24
         memory: 4.0
@@ -234,7 +257,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 36
         memory: 8.0
@@ -244,7 +268,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 54
         memory: 16.0
@@ -254,7 +279,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 81
         memory: 32.0
@@ -265,7 +291,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
   t1:
-    - micro:
+    - instanceType:
+        name: micro
         vcpu: 1
         cpu_credits_per_hour: 0
         memory: 0.613
@@ -276,7 +303,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
   m5:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -286,7 +314,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -296,7 +325,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -306,7 +336,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -316,7 +347,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -326,7 +358,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -336,7 +369,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -347,7 +381,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
   m5d:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -357,7 +392,8 @@ GeneralPurpose:
           size: 75
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -367,7 +403,8 @@ GeneralPurpose:
           size: 150
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -377,7 +414,8 @@ GeneralPurpose:
           size: 300
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -387,7 +425,8 @@ GeneralPurpose:
           size: 300
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -397,7 +436,8 @@ GeneralPurpose:
           size: 900
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -407,7 +447,8 @@ GeneralPurpose:
           size: 900
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -418,7 +459,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
   m5a:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -428,7 +470,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -438,7 +481,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -448,7 +492,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -458,7 +503,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -468,7 +514,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 5000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -479,7 +526,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 10000
         net_max: 20
   m5ad:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -489,7 +537,8 @@ GeneralPurpose:
           size: 75
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -499,7 +548,8 @@ GeneralPurpose:
           size: 150
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -509,7 +559,8 @@ GeneralPurpose:
           size: 300
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -519,7 +570,8 @@ GeneralPurpose:
           size: 300
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -529,7 +581,8 @@ GeneralPurpose:
           size: 900
           max_dedicated_ebs_bandwidth: 5000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -540,7 +593,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 10000
         net_max: 20
   m4:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -550,7 +604,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 450
         net_max: 5
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -560,7 +615,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 750
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -570,7 +626,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 1000
         net_max: 5
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -580,7 +637,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 2000
         net_max: 5
-    - 10xlarge:
+    - instanceType:
+        name: 10xlarge
         vcpu: 40
         cpu_credits_per_hour: 0
         memory: 160.0
@@ -590,7 +648,8 @@ GeneralPurpose:
           size: 0
           max_dedicated_ebs_bandwidth: 4000
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 256.0
@@ -601,7 +660,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 10000
         net_max: 25
   m3:
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 1
         cpu_credits_per_hour: 0
         memory: 3.75
@@ -611,7 +671,8 @@ GeneralPurpose:
           size: 4
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 7.5
@@ -621,7 +682,8 @@ GeneralPurpose:
           size: 32
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 15.0
@@ -631,7 +693,8 @@ GeneralPurpose:
           size: 40
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 30.0
@@ -642,7 +705,8 @@ GeneralPurpose:
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
   m1:
-    - small:
+    - instanceType:
+        name: small
         vcpu: 1
         cpu_credits_per_hour: 0
         memory: 1.7
@@ -652,7 +716,8 @@ GeneralPurpose:
           size: 160
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 1
         cpu_credits_per_hour: 0
         memory: 3.75
@@ -662,7 +727,8 @@ GeneralPurpose:
           size: 410
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 7.5
@@ -672,7 +738,8 @@ GeneralPurpose:
           size: 420
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 15.0
@@ -684,7 +751,8 @@ GeneralPurpose:
         net_max: 0
 ComputeOptimized:
   c5:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 4.0
@@ -694,7 +762,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 450
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -704,7 +773,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -714,7 +784,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -724,7 +795,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 9xlarge:
+    - instanceType:
+        name: 9xlarge
         vcpu: 36
         cpu_credits_per_hour: 0
         memory: 72.0
@@ -734,7 +806,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 18xlarge:
+    - instanceType:
+        name: 18xlarge
         vcpu: 72
         cpu_credits_per_hour: 0
         memory: 144.0
@@ -745,7 +818,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   c5d:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 4.0
@@ -755,7 +829,8 @@ ComputeOptimized:
           size: 50
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 8.0
@@ -765,7 +840,8 @@ ComputeOptimized:
           size: 100
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -775,7 +851,8 @@ ComputeOptimized:
           size: 200
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -785,7 +862,8 @@ ComputeOptimized:
           size: 400
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 9xlarge:
+    - instanceType:
+        name: 9xlarge
         vcpu: 36
         cpu_credits_per_hour: 0
         memory: 72.0
@@ -795,7 +873,8 @@ ComputeOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 18xlarge:
+    - instanceType:
+        name: 18xlarge
         vcpu: 72
         cpu_credits_per_hour: 0
         memory: 144.0
@@ -806,7 +885,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   c5n:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: "5.25"
@@ -816,7 +896,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 25
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 10.5
@@ -826,7 +907,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 25
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 21.0
@@ -836,7 +918,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 25
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 42.0
@@ -846,7 +929,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 25
-    - 9xlarge:
+    - instanceType:
+        name: 9xlarge
         vcpu: 36
         cpu_credits_per_hour: 0
         memory: 96.0
@@ -856,7 +940,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 7000
         net_max: 50
-    - 18xlarge:
+    - instanceType:
+        name: 18xlarge
         vcpu: 72
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -867,7 +952,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 100
   c4:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 81
         memory: "3.75"
@@ -877,7 +963,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 500
         net_max: 5
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 81
         memory: 7.5
@@ -887,7 +974,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 750
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 81
         memory: 15.0
@@ -897,7 +985,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 1000
         net_max: 5
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 81
         memory: 30.0
@@ -907,7 +996,8 @@ ComputeOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 2000
         net_max: 5
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 36
         cpu_credits_per_hour: 81
         memory: 60.0
@@ -918,7 +1008,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 4000
         net_max: 10
   c3:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 3.75
@@ -928,7 +1019,8 @@ ComputeOptimized:
           size: 16
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 7.5
@@ -938,7 +1030,8 @@ ComputeOptimized:
           size: 40
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 15.0
@@ -948,7 +1041,8 @@ ComputeOptimized:
           size: 80
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 30.0
@@ -958,7 +1052,8 @@ ComputeOptimized:
           size: 160
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 60.0
@@ -969,7 +1064,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   cc2:
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 60.5
@@ -980,7 +1076,8 @@ ComputeOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   c1:
-    - medium:
+    - instanceType:
+        name: medium
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 1.7
@@ -990,7 +1087,8 @@ ComputeOptimized:
           size: 350
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 60.0
@@ -1002,7 +1100,8 @@ ComputeOptimized:
         net_max: 0
 MemoryOptimized:
   r5:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -1012,7 +1111,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1022,7 +1122,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1032,7 +1133,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 128.0
@@ -1042,7 +1144,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1052,7 +1155,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1062,7 +1166,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1073,7 +1178,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   r5d:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -1083,7 +1189,8 @@ MemoryOptimized:
           size: 75
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1093,7 +1200,8 @@ MemoryOptimized:
           size: 150
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1103,7 +1211,8 @@ MemoryOptimized:
           size: 300
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 128.0
@@ -1113,7 +1222,8 @@ MemoryOptimized:
           size: 300
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1123,7 +1233,8 @@ MemoryOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1133,7 +1244,8 @@ MemoryOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1144,7 +1256,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   r5a:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -1154,7 +1267,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 140000
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1164,7 +1278,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1174,7 +1289,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 128.0
@@ -1184,7 +1300,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1194,7 +1311,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 5000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1205,7 +1323,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 10000
         net_max: 20
   r5ad:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -1215,7 +1334,8 @@ MemoryOptimized:
           size: 75
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1225,7 +1345,8 @@ MemoryOptimized:
           size: 150
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1235,7 +1356,8 @@ MemoryOptimized:
           size: 300
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 128.0
@@ -1245,7 +1367,8 @@ MemoryOptimized:
           size: 300
           max_dedicated_ebs_bandwidth: 2120
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1255,7 +1378,8 @@ MemoryOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 5000
         net_max: 10
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         vcpu: 96
         cpu_credits_per_hour: 0
         memory: 768.0
@@ -1266,7 +1390,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 100000
         net_max: 20
   r4:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: "15.25"
@@ -1276,7 +1401,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 30.5
@@ -1286,7 +1412,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 61.0
@@ -1296,7 +1423,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -1306,7 +1434,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1316,7 +1445,8 @@ MemoryOptimized:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 488.0
@@ -1327,7 +1457,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
   r3:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 15.25
@@ -1337,7 +1468,8 @@ MemoryOptimized:
           size: 32
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 30.5
@@ -1347,7 +1479,8 @@ MemoryOptimized:
           size: 80
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 61.0
@@ -1357,7 +1490,8 @@ MemoryOptimized:
           size: 160
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -1367,7 +1501,8 @@ MemoryOptimized:
           size: 320
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1378,7 +1513,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   cr1:
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1389,7 +1525,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   m2:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 17.1
@@ -1399,7 +1536,8 @@ MemoryOptimized:
           size: 420
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 34.2
@@ -1409,7 +1547,8 @@ MemoryOptimized:
           size: 850
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 68.4
@@ -1420,7 +1559,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
   x1e:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -1430,7 +1570,8 @@ MemoryOptimized:
           size: 120
           max_dedicated_ebs_bandwidth: 500
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1440,7 +1581,8 @@ MemoryOptimized:
           size: 240
           max_dedicated_ebs_bandwidth: 1000
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 488.0
@@ -1450,7 +1592,8 @@ MemoryOptimized:
           size: 480
           max_dedicated_ebs_bandwidth: 1750
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 976.0
@@ -1460,7 +1603,8 @@ MemoryOptimized:
           size: 960
           max_dedicated_ebs_bandwidth: 3500
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 1952.0
@@ -1470,7 +1614,8 @@ MemoryOptimized:
           size: 1920
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 32xlarge:
+    - instanceType:
+        name: 32xlarge
         vcpu: 128
         cpu_credits_per_hour: 0
         memory: 3904.0
@@ -1481,7 +1626,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   x1:
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 976.0
@@ -1491,7 +1637,8 @@ MemoryOptimized:
           size: 1920
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 32xlarge:
+    - instanceType:
+        name: 32xlarge
         vcpu: 128
         cpu_credits_per_hour: 0
         memory: 1952.0
@@ -1502,7 +1649,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   u-6rb1:
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 448
         cpu_credits_per_hour: 0
         memory: 6000.0
@@ -1513,7 +1661,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   u-9tb1:
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 448
         cpu_credits_per_hour: 0
         memory: 9000.0
@@ -1524,7 +1673,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   u-12tb1:
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 448
         cpu_credits_per_hour: 0
         memory: 12000.0
@@ -1535,7 +1685,8 @@ MemoryOptimized:
           max_dedicated_ebs_bandwidth: 140000
         net_max: 25
   z1d:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 16.0
@@ -1545,7 +1696,8 @@ MemoryOptimized:
           size: 75
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1555,7 +1707,8 @@ MemoryOptimized:
           size: 150
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1565,7 +1718,8 @@ MemoryOptimized:
           size: 300
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 3xlarge:
+    - instanceType:
+        name: 3xlarge
         vcpu: 12
         cpu_credits_per_hour: 0
         memory: 96.0
@@ -1575,7 +1729,8 @@ MemoryOptimized:
           size: 450
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 6xlarge:
+    - instanceType:
+        name: 6xlarge
         vcpu: 24
         cpu_credits_per_hour: 0
         memory: 192.0
@@ -1585,7 +1740,8 @@ MemoryOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 12xlarge:
+    - instanceType:
+        name: 12xlarge
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1595,7 +1751,8 @@ MemoryOptimized:
           size: 900
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 48
         cpu_credits_per_hour: 0
         memory: 384.0
@@ -1607,7 +1764,8 @@ MemoryOptimized:
         net_max: 25
 AcceleratedComputing:
   p3:
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         gpu:
           count: 1
           type: "NVIDIA Tesla V100"
@@ -1621,7 +1779,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 1500
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         gpu:
           count: 4
           type: "NVIDIA Tesla V100"
@@ -1635,7 +1794,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 7000
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         gpu:
           count: 8
           type: "NVIDIA Tesla V100"
@@ -1650,7 +1810,8 @@ AcceleratedComputing:
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
   p3dn:
-    - 24xlarge:
+    - instanceType:
+        name: 24xlarge
         gpu:
           count: 8
           type: "NVIDIA Tesla V100"
@@ -1665,7 +1826,8 @@ AcceleratedComputing:
           max_dedicated_ebs_bandwidth: 14000
         net_max: 100
   p2:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         gpu:
           count: 1
           type: "NVIDIA K80"
@@ -1679,7 +1841,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 14000
         net_max: 5
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         gpu:
           count: 8
           type: "NVIDIA K80"
@@ -1693,7 +1856,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 14000
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         gpu:
           count: 16
           type: "NVIDIA K80"
@@ -1708,7 +1872,8 @@ AcceleratedComputing:
           max_dedicated_ebs_bandwidth: 14000
         net_max: 25
   g3:
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         gpu:
           count: 1
           type: "NVIDIA Tesla M60"
@@ -1722,7 +1887,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         gpu:
           count: 2
           type: "NVIDIA Tesla M60"
@@ -1736,7 +1902,8 @@ AcceleratedComputing:
           size: 0
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         gpu:
           count: 4
           type: "NVIDIA Tesla M60"
@@ -1751,7 +1918,8 @@ AcceleratedComputing:
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
   g3s:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         gpu:
           count: 1
           type: "NVIDIA Tesla M60"
@@ -1766,7 +1934,8 @@ AcceleratedComputing:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   g2:
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         gpu:
           count: 1
           type: "NVIDIA GRID K520"
@@ -1780,7 +1949,8 @@ AcceleratedComputing:
           size: 60
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         gpu:
           count: 32
           type: "NVIDIA GRID K520"
@@ -1796,7 +1966,8 @@ AcceleratedComputing:
         net_max: 0
 FPGAAcceleratedComputing:
   f1:
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         fpga_count: 1
         vcpu: 8
         cpu_credits_per_hour: 0
@@ -1807,7 +1978,8 @@ FPGAAcceleratedComputing:
           size: 470
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         fpga_count: 2
         vcpu: 16
         cpu_credits_per_hour: 0
@@ -1818,7 +1990,8 @@ FPGAAcceleratedComputing:
           size: 940
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         fpga_count: 8
         vcpu: 64
         cpu_credits_per_hour: 0
@@ -1831,7 +2004,8 @@ FPGAAcceleratedComputing:
         net_max: 25
 StorageOptimized:
   h1:
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 32.0
@@ -1841,7 +2015,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 64.0
@@ -1851,7 +2026,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 128.0
@@ -1861,7 +2037,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 256.0
@@ -1872,7 +2049,8 @@ StorageOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
   i3:
-    - large:
+    - instanceType:
+        name: large
         vcpu: 2
         cpu_credits_per_hour: 0
         memory: 15.25
@@ -1882,7 +2060,8 @@ StorageOptimized:
           size: 475
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 30.5
@@ -1892,7 +2071,8 @@ StorageOptimized:
           size: 950
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 61.0
@@ -1902,7 +2082,8 @@ StorageOptimized:
           size: 1900
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -1912,7 +2093,8 @@ StorageOptimized:
           size: 1900
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1922,7 +2104,8 @@ StorageOptimized:
           size: 1900
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
-    - 16xlarge:
+    - instanceType:
+        name: 16xlarge
         vcpu: 64
         cpu_credits_per_hour: 0
         memory: 488.0
@@ -1932,7 +2115,8 @@ StorageOptimized:
           size: 1900
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
-    - metal:
+    - instanceType:
+        name: metal
         vcpu: 72
         cpu_credits_per_hour: 0
         memory: 512.0
@@ -1943,7 +2127,8 @@ StorageOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 25
   i2:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 30.5
@@ -1953,7 +2138,8 @@ StorageOptimized:
           size: 800
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 61.0
@@ -1963,7 +2149,8 @@ StorageOptimized:
           size: 800
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -1973,7 +2160,8 @@ StorageOptimized:
           size: 800
           max_dedicated_ebs_bandwidth: 0
         net_max: 0
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 32
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -1984,7 +2172,8 @@ StorageOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   d2:
-    - xlarge:
+    - instanceType:
+        name: xlarge
         vcpu: 4
         cpu_credits_per_hour: 0
         memory: 30.5
@@ -1994,7 +2183,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 2xlarge:
+    - instanceType:
+        name: 2xlarge
         vcpu: 8
         cpu_credits_per_hour: 0
         memory: 61.0
@@ -2004,7 +2194,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 4xlarge:
+    - instanceType:
+        name: 4xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 122.0
@@ -2014,7 +2205,8 @@ StorageOptimized:
           size: 2000
           max_dedicated_ebs_bandwidth: 0
         net_max: 5
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 36
         cpu_credits_per_hour: 0
         memory: 244.0
@@ -2025,7 +2217,8 @@ StorageOptimized:
           max_dedicated_ebs_bandwidth: 0
         net_max: 10
   hs1:
-    - 8xlarge:
+    - instanceType:
+        name: 8xlarge
         vcpu: 16
         cpu_credits_per_hour: 0
         memory: 117.0
